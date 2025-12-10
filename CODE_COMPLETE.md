@@ -1,0 +1,56 @@
+# KidsZikrApp - Complete Code Listing
+
+All files with full source code as requested.
+
+---
+
+## 1. Configuration Files
+
+### pubspec.yaml
+```yaml
+name: kids_zikr_app
+description: A Flutter app for kids to learn and practice Azkar with rewards.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Audio
+  audioplayers: ^5.2.1
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+  timezone: ^0.9.2
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # UI
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here if needed in the future
+  # assets:
+  #   - assets/audio/
+  #   - assets/images/
+```
+
+---
+
